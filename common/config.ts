@@ -40,8 +40,19 @@ export const configs = {
     nativeCurrencyLabel: 'BNB',
     v2Factory: '0x0000000000000000000000000000000000000000',
     stableFactory: '0x6725F303b657a9451d8BA641348b6761A6CC7a17',
-    stableInfo: '0x0a4922aD4400c920144adec825B8d4D814C48303',
-    cake: '0x0000000000000000000000000000000000000000',
+    stableInfo: '0xc1EeD9232A0A44c2463ACB83698c162966FBc78d',
+    cake: '0xCFa1b5700bdf22f0915317535baa4de7dC05B60e',
     smartRouterHelper: '0xdAecee3C08e953Bd5f89A5Cc90ac560413d709E3',
   },
+
+  pulsechaintestnet: {
+    WNATIVE: '0x70499adEBB11Efd915E3b69E700c331778628707',
+    nativeCurrencyLabel: 'PLS',
+    v2Factory: '0x466A0929c9E2D2dc7A0c93f7AdAF805Bf30e727A',
+    stableFactory: '0x8908Fb45f1d4044435E67a7E11aFB309f1687512',
+    stableInfo: '0x6975D2Ac05EA315dE3CD028E424E8DE137b2fe30',
+    cake: '0xCFa1b5700bdf22f0915317535baa4de7dC05B60e',
+    smartRouterHelper: '0xB20eE2208F9cbb878DE59ED4C7915b23527C383c',
+  },
+
 } as const

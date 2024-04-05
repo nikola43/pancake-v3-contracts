@@ -9,3 +9,8 @@
 4. `yarn` in root directory
 5. `NETWORK=$NETWORK yarn zx v3-deploy.mjs` where `$NETWORK` is either `eth`, `goerli`, `bscMainnet`, `bscTestnet` or `hardhat` (for local testing)
 6. `NETWORK=$NETWORK yarn zx v3-verify.mjs` where `$NETWORK` is either `eth`, `goerli`, `bscMainnet`, `bscTestnet` or `hardhat` (for local testing)
+
+npx hardhat node --fork https://rpc.v4.testnet.pulsechain.com
+npx hardhat node --fork https://rpc.pulsechain.com
+
+NETWORK=pulsechaintestnet yarn zx v3-deploy.mjs

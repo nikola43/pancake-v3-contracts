@@ -48,6 +48,16 @@ const config = {
     ...(process.env.KEY_ETH && { eth }),
     // testnet: bscTestnet,
     // mainnet: bscMainnet,
+    pulsechainmainnet: {
+      url: "https://rpc.pulsechain.com",
+      accounts: [`${process.env.KEY_TESTNET}`],
+      chainId: 0x171
+    },
+    pulsechaintestnet: {
+      url: "https://rpc.v4.testnet.pulsechain.com",
+      accounts: [`${process.env.KEY_TESTNET}`],
+      chainId: 0x3AF
+    }
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,

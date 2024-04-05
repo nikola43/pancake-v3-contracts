@@ -1,0 +1,7 @@
+{
+  "smartRouterHelper": "0xB20eE2208F9cbb878DE59ED4C7915b23527C383c",
+  "stableInfo": "0xA954A8Cd2E4Dce16fAC9930b128e685605785366",
+  "stableFactory": "0x8908Fb45f1d4044435E67a7E11aFB309f1687512",
+  "pancakeStableSwapTwoPoolDeployer": "0x6975D2Ac05EA315dE3CD028E424E8DE137b2fe30",
+  "pancakeStableSwapThreePoolDeployer": "0x46A999A1A4ea0dBeEEB9D503BC416dbCdf2AF6aD"
+}
